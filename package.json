@@ -1,0 +1,25 @@
+{
+  "name": "ragnarok",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --config webpack.config.js --open"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^6.8.1",
+    "html-webpack-plugin": "^5.5.0",
+    "sass": "^1.63.6",
+    "sass-loader": "^13.3.2",
+    "serve": "^14.1.0",
+    "style-loader": "^3.3.3",
+    "webpack": "^5.88.1",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  },
+  "dependencies": {
+    "swiper": "^8.4.4"
+  }
+}
